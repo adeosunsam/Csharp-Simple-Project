@@ -23,7 +23,6 @@ namespace tutorial
 			string pickNumber = Console.ReadLine();
 
 			ifStatement(pickNumber);
-			Console.ReadLine();
 			Console.Write("Do you want to play again [y/n]? ");
 			string yesNo = Console.ReadLine();
 
@@ -61,7 +60,6 @@ namespace tutorial
 			{
 				message = "Try again next time";
 				Console.WriteLine(message);
-
 			}
 		}
 
