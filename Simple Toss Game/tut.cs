@@ -69,7 +69,7 @@ namespace tutorial
 			string message = "";
 			if (letter == "a" || letter == "f" || letter == "y")
 			{
-				message = "Congratulations You Won yourself a car";
+				message = "Congratulations You won yourself a car";
 				return message;
 			}
 			else
